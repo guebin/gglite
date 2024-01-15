@@ -1,0 +1,101 @@
+* using log directory ‘/home/cgb2/Dropbox/09_packages/gglite/gglite.Rcheck’
+* using R version 4.3.1 (2023-06-16)
+* using platform: x86_64-conda-linux-gnu (64-bit)
+* R was compiled by
+    x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0
+    GNU Fortran (Anaconda gcc) 11.2.0
+* running under: Ubuntu 22.04.3 LTS
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘gglite/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘gglite’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘gglite’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... NOTE
+Non-standard file/directory found at top level:
+  ‘Rplots.pdf’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: ‘ggplot2’
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+area: no visible binding for global variable ‘geom_area’
+area: no visible global function definition for ‘aes’
+boxplot: no visible binding for global variable ‘geom_boxplot’
+boxplot: no visible global function definition for ‘aes’
+col: no visible binding for global variable ‘geom_col’
+col: no visible global function definition for ‘aes’
+density: no visible binding for global variable ‘geom_density’
+density: no visible global function definition for ‘aes’
+gglite: no visible global function definition for ‘theme_bw’
+gglite: no visible global function definition for ‘theme’
+gglite: no visible global function definition for ‘element_blank’
+gglite: no visible global function definition for ‘element_line’
+gglite: no visible global function definition for ‘element_text’
+gglite: no visible global function definition for ‘rel’
+gglite: no visible global function definition for ‘unit’
+histogram: no visible binding for global variable ‘geom_histogram’
+histogram: no visible global function definition for ‘aes’
+histogram: no visible global function definition for ‘stat’
+jitter: no visible binding for global variable ‘geom_jitter’
+jitter: no visible global function definition for ‘aes’
+line: no visible binding for global variable ‘geom_line’
+line: no visible global function definition for ‘aes’
+point: no visible binding for global variable ‘geom_point’
+point: no visible global function definition for ‘aes’
+prepare_data: no visible global function definition for ‘pivot_longer’
+qq: no visible binding for global variable ‘geom_qq’
+qq: no visible global function definition for ‘aes’
+qq_line: no visible binding for global variable ‘geom_qq_line’
+qq_line: no visible global function definition for ‘aes’
+smooth: no visible binding for global variable ‘geom_smooth’
+smooth: no visible global function definition for ‘aes’
+step: no visible binding for global variable ‘geom_step’
+step: no visible global function definition for ‘aes’
+violin: no visible binding for global variable ‘geom_violin’
+violin: no visible global function definition for ‘aes’
+Undefined global functions or variables:
+  aes element_blank element_line element_text geom_area geom_boxplot
+  geom_col geom_density geom_histogram geom_jitter geom_line geom_point
+  geom_qq geom_qq_line geom_smooth geom_step geom_violin pivot_longer
+  rel stat theme theme_bw unit
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘area’ ‘boxplot’ ‘col’ ‘density’ ‘gglite’ ‘histogram’ ‘jitter’ ‘line’
+  ‘point’ ‘prepare_data’ ‘qq’ ‘qq_line’ ‘smooth’ ‘step’ ‘violin’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking examples ... NONE
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 3 WARNINGs, 2 NOTEs
